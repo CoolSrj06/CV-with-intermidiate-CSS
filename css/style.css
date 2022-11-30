@@ -1,0 +1,140 @@
+    /* differerence between static and dynamic font size
+    When Static font size is applied it actually does not change the size
+    of the font when display size is decreased manually by the user.
+    Here font size is changed in "px".
+    When Dynamic font size is applied it actually changes the size
+    of the font when display size is decreased manually by the user.
+    Here font size is changed in "%" and "em" */
+
+    /* if you give a specific font size in body tag and a font size in any
+    other tag
+    say h1 tag then when font is displayed on screen it will add the both 
+    font sizes. 
+    To avoid this kind of problem, we got a new feature in version of 
+    CSS 3 is using "rem" in place of"em"*/
+
+    /* always remember 100% = 16px = 1em = 1rem*/
+body{
+    margin: 0;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+h1{
+    margin: 0 auto 0 auto; /*top left bottom righ (clockwise)*/
+    font-family: 'Dancing Script', cursive;
+    color: #66BFBF;
+    font-size: 5rem;
+    line-height: 2;
+}
+.below-heading{
+    font-size: 2rem;
+}
+h2{
+    font-family: 'Oswald', sans-serif;;
+    color: #66BFBF;
+    font-weight: normal;
+    font-size: 3rem;
+}
+h3{
+    font-family: 'Oswald', sans-serif;;
+    color: #11999E;
+}
+.hrule{
+    border-style:dotted none none;
+    width: 5%;
+    border-color: grey;
+    border-width: 6px;
+}
+a{
+    color: #11999E;
+    text-decoration: none;
+}
+a:hover{
+    color: #ffffff;
+}
+.dp{
+    border-radius: 100%;
+    padding: 50px;
+    width: 15%;
+}
+.profile{
+    padding: 0px;
+}
+.exam{
+    width: 25%;
+    float: right;
+    margin: auto 30px auto 30px;
+}
+.airmen{
+    width: 25%;
+    float: left;
+    margin: auto 30px auto 30px;
+}
+
+/* as we use the float function to wrap a image with a text ,the opposite function which we use is 
+the clear funtion that unwarps the text*/
+.achievements-row{
+    text-align: left;
+    line-height: 2;
+    margin: 30px 450px 30px 450px;
+    padding: 20px;
+}
+.top-container{ /*this the class name which was given in div and here it used to give style*/
+    background-color: #306d85;
+    padding: 100px;/*it is used to give a space between text and border*/
+}
+.vit{
+    text-decoration: underline;
+}
+.middle-container{
+   
+}
+.bottom-container{
+    margin: 100px 0 0 0;
+    padding: 50px 0 20px;
+    background-color: #66BFBF;
+    
+}
+.footer-link{
+    color: #11999E;
+    margin: auto 15px;
+}
+.copyright{
+    color: #EAF6F6;
+}
+.cloud-bottom{
+    position: absolute;
+}
+.cloud-top{
+    position: relative;
+    left: 250px;
+}
+.contact-me{
+    margin: 50px;
+}
+.btn {
+        background: #11cdd4;
+        background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+        background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+        background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+        background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+        background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+        -webkit-border-radius: 8;
+        -moz-border-radius: 8;
+        border-radius: 8px;
+        font-family: Georgia;
+        color: #ffffff;
+        font-size: 21px;
+        padding: 10px 20px 10px 20px;
+        text-decoration: none;
+      }
+      
+.btn:hover {
+        background: #30e3cb;
+        background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+        background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+        background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+        background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+        background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+        text-decoration: none;
+      }

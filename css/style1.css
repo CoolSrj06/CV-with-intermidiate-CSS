@@ -1,0 +1,26 @@
+body{
+    margin: 0;
+}
+.redS{
+    height: 200px;
+    width: 200px;
+    background-color: red;
+    position: absolute;
+    left: 400px;
+    top: 400px;
+}
+.blueS{
+    height: 200px;
+    width: 200px;
+    background-color: blue;
+    position: absolute;
+    left: 200px;
+    top: 200px;
+    
+}
+.yellowS{
+    height: 200px;
+    width: 200px;
+    background-color: yellow;
+    position: absolute;
+}
